@@ -207,7 +207,7 @@ body{
         display: flex;
         flex-direction:row;
         height:200px;
-        width: 30%;
+        width: 500px;
         border: 3px solid #ec912d;
         border-radius: 15px;
         padding: 3px;
@@ -245,9 +245,10 @@ body{
 
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
+  
   * {
         /* scrollbar-width: none; */
-         border-radius: 10px;
+        border-radius: 10px;
         scrollbar-color: #ec912d #f7f7f7; 
       }
     
@@ -263,7 +264,7 @@ body{
       *::-webkit-scrollbar-thumb {
         background-color: #e08906;
         border-radius: 10px;
-        border: 3px solid #ffffff;
+        border: px solid #ffffff;
       }
 
 
@@ -344,7 +345,21 @@ body{
                 width: 90%;
         }
 
+        .container-card{
+                display: flex;
+                flex-direction:column;
+        }
+
+        .card{
+                width: 90%;
+        }
+
 
 }
 
 
+@media (max-width: 1075px){
+        .card{
+               width: 450px; 
+        }
+}
