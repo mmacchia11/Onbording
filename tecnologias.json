@@ -1,0 +1,67 @@
+[
+        {
+                "titulo": "AWS SNS",
+                "imagen": "sns",
+                "info": "Amazon Simple Notification Service (Amazon SNS) es un servicio de mensajería completamente administrado para la comunicación aplicación a aplicación (A2A) y aplicación a persona (A2P)."
+        },
+        {
+                "titulo": "Amazon S3",
+                "imagen": "s3",
+                "info": "Amazon Simple Storage Service (Amazon S3) es un servicio de almacenamiento de objetos que ofrece escalabilidad, disponibilidad de datos, seguridad y rendimiento líderes en el sector. Clientes de todos los tamaños y sectores pueden almacenar y proteger cualquier cantidad de datos para prácticamente cualquier caso de uso, como los lagos de datos, las aplicaciones nativas en la nube y las aplicaciones móviles. Con clases de almacenamiento rentables y características de administración fáciles de utilizar, puede optimizar los costos, organizar los datos y configurar los controles de acceso precisos con objeto de satisfacer requisitos empresariales, organizativos y de conformidad específicos."
+        },
+        {
+                "titulo":"AWS Lambda",
+                "imagen":"lambda",
+                "info":"AWS Lambda es un servicio informático sin servidor que ejecuta código como respuesta a eventos y administra automáticamente los recursos informáticos subyacentes."
+        },
+        {
+                "titulo":"AWS Glue",
+                "imagen":"glue",
+                "info":"AWS Glue es un servicio de integración de datos sin servidores que facilita preparar datos para análisis, machine learning y desarrollo de aplicaciones. AWS Glue proporciona todas las capacidades que se necesitan para la integración de datos, de modo que puede obtener información y usarlos en minutos en vez de meses. Con AWS Glue no hay ninguna infraestructura que configurar ni administrar. Solo paga por los recursos utilizados mientras se ejecutan sus trabajos."
+        },
+        {
+                "titulo":"AWS CDK",
+                "imagen":"cdk",
+                "info":"El kit de desarrollo de la nube de AWS (AWS CDK) es un marco de desarrollo de software de código abierto que sirve para definir los recursos destinados a aplicaciones en la nube mediante lenguajes de programación conocidos."
+        },
+        {
+                "titulo":"AWS LakeFormation",
+                "imagen":"lakeformation",
+                "info":"AWS Lake Formation es un servicio que facilita la configuración de un lago de datos seguro en cuestión de días. Un lago de datos es un repositorio centralizado, seleccionado y seguro que almacena todos sus datos, tanto en su forma original como preparados para análisis. Los lagos de datos le permiten desglosar los silos de datos y combinar diferentes tipos de análisis para obtener información y tomar mejores decisiones empresariales."
+        },
+        {
+                "titulo":"AWS Athena",
+                "imagen":"athena",
+                "info":"Amazon Athena es un servicio de consultas interactivo que facilita el análisis de datos en Amazon S3 con SQL estándar. Athena no tiene servidor, de manera que no es necesario administrar infraestructura y solo paga por las consultas que ejecuta. Athena es sencillo de utilizar. Simplemente señale los datos en Amazon S3, defina el esquema y comience a realizar consultas con SQL estándar. La mayoría de los resultados se proporciona en cuestión de segundos. Con Athena, no es necesario realizar trabajos complejos de ETL para preparar los datos para el análisis. Por ello, cualquier persona con habilidades SQL puede analizar conjuntos de datos a gran escala de forma rápida y sencilla."
+        },
+        {
+                "titulo":"AWS Quick Sight",
+                "imagen":"quicksight",
+                "info":"Amazon QuickSight es un servicio de inteligencia empresarial (BI) a escala de la nube que puede utilizar para ofrecer información fácil de entender a las personas con las que trabaja, dondequiera que se encuentren. Amazon QuickSight se conecta a sus datos en la nube y combina datos de muchas fuentes diferentes."
+        },
+        {
+                "titulo":"AWS EC2",
+                "imagen":"ec2",
+                "info":"Amazon Elastic Compute Cloud (Amazon EC2) es un servicio web que proporciona capacidad informática en la nube segura y de tamaño modificable. Está diseñado para simplificar el uso de la informática en la nube a escala web para los desarrolladores."
+        },
+        {
+                "titulo":"AWS SageMaker",
+                "imagen":"sagemaker",
+                "info":"Amazon SageMaker permite crear, entrenar e implementar modelos de machine learning (ML) para cualquier caso de uso con infraestructura, herramientas y flujos de trabajo completamente administrados."
+        },
+        {
+                "titulo":"AWS CodePipeline",
+                "imagen":"codepipeline",
+                "info":"AWS CodePipeline es un servicio de entrega continua completamente administrado que permite automatizar canalizaciones de lanzamiento para lograr actualizaciones de infraestructura y aplicaciones rápidas y fiables."
+        },
+        {
+                "titulo":"AWS CodeCommit",
+                "imagen":"codecommit",
+                "info":"AWS CodeCommit es un servicio de control de código fuente seguro, administrado y de alta escalabilidad que aloja repositorios de Git privados. Facilita que los equipos colaboren de forma segura en el código con el cifrado de las contribuciones en tránsito y en reposo."
+        },
+        {
+                "titulo":"AWS CodeBuild",
+                "imagen":"codebuild",
+                "info":"AWS CodeBuild es un servicio de integración continua completamente administrado que compila código fuente, ejecuta pruebas y produce paquetes de software listos para su implementación. Con CodeBuild, no es necesario aprovisionar, administrar y escalar sus propios servidores de compilación."
+        }
+]

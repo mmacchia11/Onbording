@@ -1,0 +1,350 @@
+body{
+        font-family: 'Rubik', sans-serif;
+}
+
+/* SECTIOS UNO */
+.introduccion{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap: wrap; 
+        justify-content: center;
+}
+
+.introduccion .intro{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+/*         background-color:rgb(218, 94, 94); */
+    
+}
+
+.introduccion .intro img{
+        width: 400px;
+        border-radius: 50%;
+}
+
+.introduccion .intro .data{
+        width: 45%;
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.introduccion .intro .data h2{
+        color: #c23ab3;
+}
+.introduccion .intro .data p{
+        width: 80%;
+        font-size: 18px;
+}
+
+
+.introduccion .obj-princiapal{
+        width: 40%;
+}
+
+.introduccion .obj-princiapal h2{
+        color:#f3ab45;
+}
+
+
+.introduccion .metodologia{
+        width: 40%;
+}
+
+.introduccion .metodologia h2{
+        color:#80c4be;
+}
+
+
+/* SECTION DOS */
+
+.historias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.historias .jira-general{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 40%;
+        border: 3px solid #e46799;
+        border-radius: 15px;
+        padding:15px;
+        margin: 4px;
+        background-color:#fd95bf ;
+}
+
+.historias .jira-general h2{
+        color:#f2287a;
+        text-decoration: underline;
+}
+
+
+
+.historias .entrenamiento-mandatario{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 40%;
+        border: 3px solid #80c4be;
+        border-radius: 15px;
+        padding:15px;
+        margin: 4px;
+        background-color: #b7fcf6;
+}
+
+.historias .entrenamiento-mandatario h2{
+        color:#52c2b8;
+        text-decoration: underline;
+}
+
+.historias .entrenamiento-mandatario  a{
+        color:#666;
+        text-decoration: none;
+}
+
+/* SECTION TRES */
+
+
+.cursos-worksshop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.cursos-worksshop .link-ref{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 40%;
+        border: 3px solid #e6a140;
+        border-radius: 15px;
+        padding:15px;
+        margin: 4px;
+        background-color: #ffdaa5;
+}
+.cursos-worksshop .link-ref h2{
+        color:#f3ab45;
+        text-decoration: underline;
+}
+
+.cursos-worksshop .link-ref a{
+        color:#666;
+        text-decoration: none;
+}
+
+
+.cursos-worksshop .entrenamiento-opcional{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 40%;
+        border: 3px solid #61579e;
+        border-radius: 15px;
+        padding:15px;
+        margin: 4px;
+        background-color: #baaffc;
+        
+}
+
+.cursos-worksshop .entrenamiento-opcional h2{
+        color:#61579e;
+        text-decoration: underline;
+}
+
+.cursos-worksshop .entrenamiento-opcional a{
+        color:#666;
+        text-decoration: none;
+}
+
+
+.cursos-worksshop .info-interna-piba{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 45%;
+        border: 3px solid #737275;
+        border-radius: 15px;
+        padding:15px;
+        margin: 4px;
+        
+}
+.cursos-worksshop .info-interna-piba h2{
+        text-decoration: underline;
+        color: #666;
+}
+.cursos-worksshop .info-interna-piba a{
+        text-decoration: none;
+        color: #666;
+}
+
+
+/* SECTION CUETRO */
+.stacks-tecno{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+}
+
+.container-card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+}
+
+.card{
+        display: flex;
+        flex-direction:row;
+        height:200px;
+        width: 30%;
+        border: 3px solid #ec912d;
+        border-radius: 15px;
+        padding: 3px;
+        margin: 8px;
+        
+}
+
+.card .img {
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        padding:2px;
+        min-width: 90px;
+        width:auto;
+        border-right: 1px solid #666;
+}
+
+.card .img img{
+        width: 60px;
+        border-radius: 10px;
+}
+.card .img h5{
+        text-align: center;
+}
+
+.card .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding: 0px 11px;
+        overflow: hidden;
+        overflow-y: scroll;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+        /* scrollbar-width: none; */
+         border-radius: 10px;
+        scrollbar-color: #ec912d #f7f7f7; 
+      }
+    
+      /* Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 16px;
+      }
+    
+      *::-webkit-scrollbar-track {
+        background: #f7f7f7;
+      }
+    
+      *::-webkit-scrollbar-thumb {
+        background-color: #e08906;
+        border-radius: 10px;
+        border: 3px solid #ffffff;
+      }
+
+
+
+/* RESPONSIVES */
+
+@media (max-width: 768px) {
+        .introduccion{
+                display: flex;
+                flex-direction: column; ;
+                flex-wrap: wrap; 
+                justify-content: center;
+                align-items: center;
+                width:80%;
+        }
+        .introduccion .intro{
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                justify-content:center;
+                
+        }
+
+        .introduccion .intro img{
+                width:90%
+        }
+
+        .introduccion .intro .data{
+                width:90%
+        }
+
+        .introduccion  .obj-princiapal{
+                width:90%
+        }
+
+        .introduccion .metodologia{
+                width:90%
+        }
+
+        /* SECTION DOS  */
+
+        .historias{
+                display: flex;
+                flex-direction:column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .historias .jira-general{
+                width: 90%;
+        }
+
+        .historias .entrenamiento-mandatario{
+                width: 90%;
+        }
+
+        /* SECTION TRES */
+
+        .cursos-worksshop{
+                display: flex;
+                flex-direction:column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .cursos-worksshop .link-ref{
+                
+                width: 90%;
+        }
+
+        .cursos-worksshop .entrenamiento-opcional{
+                width: 90%;
+        }
+
+        .cursos-worksshop .info-interna-piba{
+                width: 90%;
+        }
+
+
+}
+
+
